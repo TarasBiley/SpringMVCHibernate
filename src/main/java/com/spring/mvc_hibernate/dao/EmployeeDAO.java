@@ -1,11 +1,10 @@
-package com.spring.mvc_hibernate_aop.service;
+package com.spring.mvc_hibernate.dao;
 
-import com.spring.mvc_hibernate_aop.entity.Employee;
+import com.spring.mvc_hibernate.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeService {
-
+public interface EmployeeDAO {
     public List<Employee> getAllEmployees();
 
     public void saveEmployee(Employee employee);
